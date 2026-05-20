@@ -1,1 +1,2 @@
+This is the first line in my repository
 My favorite animals are cows :)
