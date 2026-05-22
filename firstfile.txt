@@ -1,2 +1,17 @@
 This is the first line in my repository
 My favorite animals are cows :)
+
+Megjegyzések:
+
+az if self.garage: és if self.garden akkor szükséges, hogyha felvehet a True/False-on kívül más értéket is. Ami természetesen lehetséges, inkább csak FYI.
+Ha garantáltan csak T/F lehet, akkor elég:
+if self.garage:
+      price += 8000000
+
+if self.garden:
+      price += 5000000
+
+a display_info meg print_info függvények helyett lehet, hogy érdemes a __str__()-t használni, de opcionális
+az EUR-os függvény nagyon jó ötlet 😊 
+
+állatos feladat: „Explain your choice.” hiányzik, a többi rendben van.
